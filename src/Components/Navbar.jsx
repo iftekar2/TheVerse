@@ -46,6 +46,7 @@ const NevSection = styled.div`
     top: 0;
     z-index: 1;
     background-color: #212529;
+    color: red; 
 `; 
 const WebsiteName = styled.div`
     color: white; 
