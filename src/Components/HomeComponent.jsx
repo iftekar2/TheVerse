@@ -16,18 +16,18 @@ function HomeComponents() {
 
 const StyledHomeComponents = styled.div`
   @media (max-width: 1520px) {
-    height: 46.8rem;
+    height: 44rem;
     max-width: 1560px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem; 
-    color: white; 
+    gap: 3rem;
+    color: white;
   }
 
   @media (max-width: 950px) {
     display: flex;
-    flex-wrap: wrap; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -37,13 +37,14 @@ const HomePageTitle = styled.div`
   @media (max-width: 1520px) {
     h1 {
       font-size: 3rem;
-      text-align: center; 
-      margin-bottom: 2rem; 
+      text-align: center;
+      margin-bottom: 2rem;
     }
 
     p {
       font-size: 1.5rem;
       text-align: center;
+      margin: 0; /* Remove the default margin */
     }
   }
 
@@ -51,14 +52,14 @@ const HomePageTitle = styled.div`
     h1 {
       font-size: 2rem;
       margin: 0rem;
-      text-align: center; 
-      margin-bottom: 2rem;
+      text-align: center;
+      margin-bottom: 2rem; /* Match the margin in big screen */
     }
 
     p {
       font-size: 1.5rem;
-      text-align: center; 
-      margin: 0rem;
+      text-align: center;
+      margin: 0; /* Remove the default margin */
     }
   }
 `;
