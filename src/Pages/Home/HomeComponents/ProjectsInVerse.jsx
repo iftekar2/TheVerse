@@ -1,177 +1,257 @@
 import styled from "styled-components";
 
-
 function ProjectsInVerse() {
   return (
     <ProjectsInVerseSection>
-        <div className="projectInVerse">
-            <Slogan>
-                <h1>Projects In The Verse</h1>
-                <p>Games and Digital Experiences</p>
-            </Slogan>
+      <div className="projectInVerse">
+        <Slogan>
+          <h1>Projects In The Verse</h1>
+          <p>Games and Digital Experiences</p>
+        </Slogan>
 
-            <Projects>
-                <First>
-                    <img src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340" alt="Adventure in Breath Image" />
-                    <div className="firstTag">
-                        <p>Game</p>
-                    </div>
-                    <h1>Adventure in Breath (AiB)</h1>
-                </First> 
-                <Second>
-                    <img src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340" alt="Adventure in Breath Image" />
-                    <div className="secondTag">
-                        <p>Game</p>
-                    </div>
-                </Second> 
-                <Third>
-                    <img src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340" alt="Adventure in Breath Image" />
-                    <div className="thirdTag">
-                        <p>Digital Experience</p>
-                    </div>
-                </Third> 
-            </Projects>
-        </div>
+        <Projects>
+          <First>
+            <img
+              src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340"
+              alt="Adventure in Breath Image"
+            />
+            <div className="firstTag">
+              <p>Game</p>
+            </div>
+            <div className="experienceTitle">
+              <h1>Adventure in Breath (AiB)</h1>
+            </div>
+            <div className="experienceDescription">
+              <p>
+                The Verse’s first breath microgame, ‘Adventures in Breath:
+                Solace’, teaches players how to modulate their breath in
+                response to stressful game events by activating their vagus
+                nerve/parasympathetic system (detected through microphone).
+              </p>
+            </div>
+          </First>
+          <Second>
+            <img
+              src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340"
+              alt="Adventure in Breath Image"
+            />
+            <div className="secondTag">
+              <p>Game</p>
+            </div>
+            <div className="experienceTitle">
+              <h1>Karma The Six Real Game</h1>
+            </div>
+            <div className="experienceDescription">
+              <p>
+                Based on players' Karmic Score (psychological survey and game
+                play), players are born into one of the 6 realms of existence
+                (God, Demi-God, Human, Animal, Ghost, Hell) where they employ
+                our human ability to “tend and befriend” to solve challenges and
+                move on to the next levels.
+              </p>
+            </div>
+          </Second>
+          <Third>
+            <img
+              src="https://media.macphun.com/img/uploads/customer/how-to/608/15542038745ca344e267fb80.28757312.jpg?q=85&w=1340"
+              alt="Adventure in Breath Image"
+            />
+            <div className="thirdTag">
+              <p>Digital Experience</p>
+            </div>
+            <div className="experienceTitle">
+              <h1>WalkXR</h1>
+            </div>
+            <div className="experienceDescription">
+              <p>
+                A multi media/multi social therapeutic that provides our
+                community with the ability to "walk" in social themes/constructs
+                through the experiences of others. WalkX through a wellbeing
+                museum that leverages the immersive and interactive qualities of
+                extended reality (XR) to provide visitors with a unique and
+                transformative experience. The museum features a variety of
+                exhibits and installations that focus on different aspects of
+                wellbeing, such as mindfulness, physical health, emotional
+                wellness, and social connection.
+              </p>
+            </div>
+          </Third>
+        </Projects>
+      </div>
     </ProjectsInVerseSection>
-  )
+  );
 }
 
 const ProjectsInVerseSection = styled.div`
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    color: white; 
-`; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`;
 
 const Slogan = styled.div`
-    h1{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-    }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    p{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-    }
-`; 
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #d3d3d4;
+  }
+`;
 
 const Projects = styled.div`
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    gap: 1.8rem; 
-    margin-top: 3rem; 
-`; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 3rem;
+`;
 
 const First = styled.div`
-    height: 45rem; 
-    width: 28rem; 
-    border: 2px solid black; 
-    border-radius: 10px; 
+  height: 52.5rem;
+  width: 24rem;
+  border-radius: 5px;
+  background: #ffffff;
 
-    img{
-        height: 25rem; 
-        width: 100%; 
-        border-radius: 10px 10px 0px 0; 
+  img {
+    height: 25rem;
+    width: 100%;
+    border-radius: 5px 5px 0px 0;
+  }
+
+  div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h1 {
+      font-size: 1.2rem;
+      color: black;
     }
 
-    div{
-        margin-left: 1rem; 
-        margin-right: 1rem; 
+    p {
+      color: black;
+      font-size: 1.2rem;
     }
+  }
 
-    .firstTag{
-        background: #2B80FD; 
-        width: 3.5rem; 
-        height: 1.5rem; 
-        border-radius: 20px;
-        margin-top: .5rem; 
-        display: flex; 
-    justify-content: center; 
+  .firstTag {
+    background: #2b80fd;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
-        p{
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            font-size: 0.8rem; 
-        }
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      color: white;
     }
-`; 
+  }
+`;
 
 const Second = styled.div`
-    height: 45rem; 
-    width: 28rem; 
-    border: 2px solid black; 
-    border-radius: 10px; 
+  height: 52.5rem;
+  width: 24rem;
+  border-radius: 5px;
+  background: #ffffff;
 
-    img{
-        height: 25rem; 
-        width: 100%; 
-        border-radius: 10px 10px 0px 0; 
+  img {
+    height: 25rem;
+    width: 100%;
+    border-radius: 5px 5px 0px 0;
+  }
+
+  div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h1 {
+      font-size: 1.2rem;
+      color: black;
     }
 
-    div{
-        margin-left: 1rem; 
-        margin-right: 1rem; 
+    p {
+      color: black;
+      font-size: 1.2rem;
     }
+  }
 
-    .secondTag{
-        background: #2B80FD; 
-        width: 3.5rem; 
-        height: 1.5rem; 
-        border-radius: 20px; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center;
-        margin-top: .5rem; 
+  .secondTag {
+    background: #2b80fd;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
 
-        p{
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            font-size: 0.8rem; 
-        }
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      color: white;
     }
-`; 
+  }
+`;
 
 const Third = styled.div`
-    height: 45rem; 
-    width: 28rem; 
-    border: 2px solid black; 
-    border-radius: 10px; 
+  height: 52.5rem;
+  width: 24rem;
+  border-radius: 5px;
+  background: #ffffff;
 
-    img{
-        height: 25rem; 
-        width: 100%; 
-        border-radius: 10px 10px 0px 0; 
+  img {
+    height: 25rem;
+    width: 100%;
+    border-radius: 5px 5px 0px 0;
+  }
+
+  div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h1 {
+      font-size: 1.2rem;
+      color: black;
     }
 
-    div{
-        margin-left: 1rem; 
-        margin-right: 1rem; 
+    p {
+      color: black;
+      font-size: 1.2rem;
     }
+  }
 
-    .thirdTag{
-        background: #2B80FD; 
-        width: 8rem; 
-        height: 1.5rem; 
-        border-radius: 20px; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center;
-        margin-top: .5rem; 
+  .thirdTag {
+    background: #2b80fd;
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
 
-        p{
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            font-size: 0.8rem; 
-        }
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      color: white;
     }
-`; 
+  }
+`;
 
-
-export default ProjectsInVerse
+export default ProjectsInVerse;
