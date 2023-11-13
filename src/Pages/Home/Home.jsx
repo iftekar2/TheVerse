@@ -1,14 +1,11 @@
-//import Nav from "../Components/Nav";
 import styled from "styled-components";
-import HomeComponent from "../Components/HomeComponent";
-// import FAQ from "../Components/FAQ";
-// import Footer from "../Components/Footer";
+import HomeComponents from "./HomeComponents/HomeComponent";
 
 function Home() {
   return (
     <div className="HomePage">
       <HomePage>
-        <HomeComponent />
+        <HomeComponents />
       </HomePage>
     </div>
   );

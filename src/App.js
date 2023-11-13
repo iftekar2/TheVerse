@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Home from "../Pages/Home";
+import Home from "./Pages/Home/Home";
 import Navbar from "./Navbar";
 
 function App() {
