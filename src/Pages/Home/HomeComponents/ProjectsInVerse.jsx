@@ -29,6 +29,10 @@ function ProjectsInVerse() {
                 nerve/parasympathetic system (detected through microphone).
               </p>
             </div>
+
+            <div className="playButton">
+              <button>Play Game</button>
+            </div>
           </First>
           <Second>
             <img
@@ -49,6 +53,10 @@ function ProjectsInVerse() {
                 our human ability to “tend and befriend” to solve challenges and
                 move on to the next levels.
               </p>
+            </div>
+
+            <div className="playButton">
+              <button>Play Game</button>
             </div>
           </Second>
           <Third>
@@ -74,6 +82,10 @@ function ProjectsInVerse() {
                 wellbeing, such as mindfulness, physical health, emotional
                 wellness, and social connection.
               </p>
+            </div>
+
+            <div className="experienceButton">
+              <button>Experience Walk</button>
             </div>
           </Third>
         </Projects>
@@ -114,7 +126,7 @@ const Projects = styled.div`
 `;
 
 const First = styled.div`
-  height: 52.5rem;
+  height: 55rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -158,10 +170,26 @@ const First = styled.div`
       color: white;
     }
   }
+
+  .playButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background: #2b80fd;
+      color: white;
+      border: none;
+      height: 2.5rem;
+      width: 10rem;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
 `;
 
 const Second = styled.div`
-  height: 52.5rem;
+  height: 55rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -205,10 +233,26 @@ const Second = styled.div`
       color: white;
     }
   }
+
+  .playButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background: #2b80fd;
+      color: white;
+      border: none;
+      height: 2.5rem;
+      width: 10rem;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
 `;
 
 const Third = styled.div`
-  height: 52.5rem;
+  height: 55rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -250,6 +294,23 @@ const Third = styled.div`
       align-items: center;
       font-size: 0.8rem;
       color: white;
+    }
+  }
+
+  .experienceButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      background: #2b80fd;
+      color: white;
+      border: none;
+      height: 2.5rem;
+      width: 13rem;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      cursor: pointer;
     }
   }
 `;
