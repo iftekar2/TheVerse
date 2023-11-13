@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Home from "./Pages/Home";
-import Navbar from "./Components/Navbar";
+import Home from "../Pages/Home";
+import Navbar from "./Navbar";
 
 function App() {
   return (
