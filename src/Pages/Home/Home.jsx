@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import HomeComponents from "./HomeComponents/HomeComponent";
 import ProjectsInVerse from "./HomeComponents/ProjectsInVerse";
+import Quote from "./HomeComponents/Quote";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <HomePage>
         <HomeComponents />
         <ProjectsInVerse />
+        <Quote />
       </HomePage>
     </div>
   );
