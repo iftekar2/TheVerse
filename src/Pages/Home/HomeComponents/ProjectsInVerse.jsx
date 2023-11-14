@@ -119,6 +119,7 @@ const Slogan = styled.div`
 
 const Projects = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1.8rem;
@@ -193,6 +194,15 @@ const First = styled.div`
       margin-bottom: 1rem;
     }
   }
+
+  @media (max-width: 950px) {
+    height: 50rem;
+    width: 20rem;
+    border-radius: 5px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Second = styled.div`
@@ -263,6 +273,15 @@ const Second = styled.div`
       margin-bottom: 1rem;
     }
   }
+
+  @media (max-width: 950px) {
+    height: 50rem;
+    width: 20rem;
+    border-radius: 5px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Third = styled.div`
@@ -328,6 +347,15 @@ const Third = styled.div`
       border-radius: 5px;
       cursor: pointer;
     }
+  }
+
+  @media (max-width: 950px) {
+    height: 60rem;
+    width: 20rem;
+    border-radius: 5px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
