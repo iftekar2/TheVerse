@@ -126,10 +126,12 @@ const Projects = styled.div`
 `;
 
 const First = styled.div`
-  height: 55rem;
+  height: 56.5rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
 
   img {
     height: 25rem;
@@ -144,11 +146,13 @@ const First = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
+      margin-bottom: 0;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
+      margin-top: 0.8rem;
     }
   }
 
@@ -172,9 +176,11 @@ const First = styled.div`
   }
 
   .playButton {
+    margin-top: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+
     button {
       background: #2b80fd;
       color: white;
@@ -184,15 +190,18 @@ const First = styled.div`
       font-size: 1.3rem;
       border-radius: 5px;
       cursor: pointer;
+      margin-bottom: 1rem;
     }
   }
 `;
 
 const Second = styled.div`
-  height: 55rem;
+  height: 56.5rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
 
   img {
     height: 25rem;
@@ -207,11 +216,13 @@ const Second = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
+      margin-bottom: 0;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
+      margin-top: 0.8rem;
     }
   }
 
@@ -220,10 +231,10 @@ const Second = styled.div`
     width: 3.5rem;
     height: 1.5rem;
     border-radius: 20px;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.5rem;
 
     p {
       display: flex;
@@ -235,9 +246,11 @@ const Second = styled.div`
   }
 
   .playButton {
+    margin-top: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+
     button {
       background: #2b80fd;
       color: white;
@@ -247,12 +260,13 @@ const Second = styled.div`
       font-size: 1.3rem;
       border-radius: 5px;
       cursor: pointer;
+      margin-bottom: 1rem;
     }
   }
 `;
 
 const Third = styled.div`
-  height: 55rem;
+  height: 56.5rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -270,11 +284,13 @@ const Third = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
+      margin-bottom: 0;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
+      margin-top: 0.8rem;
     }
   }
 
