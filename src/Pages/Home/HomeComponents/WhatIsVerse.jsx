@@ -15,8 +15,25 @@ function WhatIsVerse() {
   );
 }
 
-const WhatIsVerseSection = styled.div``;
+const WhatIsVerseSection = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`;
 
-const Question = styled.div``;
+const Question = styled.div`
+  width: 40rem;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+`;
 
 export default WhatIsVerse;
