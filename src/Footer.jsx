@@ -18,9 +18,9 @@ function Footer() {
         </Policy>
 
         <SocialMedia>
-          <FaXTwitter />
-          <FaLinkedin />
-          <FaInstagram />
+          <FaXTwitter className="twitter" />
+          <FaLinkedin className="linkedin" />
+          <FaInstagram className="instagram" />
         </SocialMedia>
       </div>
     </FooterSection>
@@ -66,6 +66,13 @@ const SocialMedia = styled.div`
   justify-content: center;
   align-items: center;
   padding-left: 1.5rem;
+  gap: 1.8rem;
+
+  .twitter,
+  .linkedin,
+  .instagram {
+    font-size: 30px;
+  }
 `;
 
 export default Footer;
