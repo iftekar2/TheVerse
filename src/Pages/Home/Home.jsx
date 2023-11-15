@@ -3,6 +3,7 @@ import HomeComponents from "./HomeComponents/HomeComponent";
 import ProjectsInVerse from "./HomeComponents/ProjectsInVerse";
 import Quote from "./HomeComponents/Quote";
 import WhatIsVerse from "./HomeComponents/WhatIsVerse";
+import SignUp from "./HomeComponents/SignUp";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <ProjectsInVerse />
         <Quote />
         <WhatIsVerse />
+        <SignUp />
       </HomePage>
     </div>
   );
