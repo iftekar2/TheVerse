@@ -24,7 +24,6 @@ function WhatIsVerse() {
             <Icon>
               <BsFillClockFill className="clock" />
             </Icon>
-
             <Description>
               <p>
                 Highly educated and intelligent people that are not looking for
@@ -37,7 +36,6 @@ function WhatIsVerse() {
             <Icon>
               <BsBank2 className="bank" />
             </Icon>
-
             <Description>
               <p>
                 The “dissatisfied and disillusioned” - those who have worked on
@@ -50,7 +48,6 @@ function WhatIsVerse() {
             <Icon>
               <FaBookOpen className="book" />
             </Icon>
-
             <Description>
               <p>
                 Grad students (MAs and PhDs) wanting to do more with their
@@ -64,7 +61,6 @@ function WhatIsVerse() {
             <Icon>
               <FaHeart className="heart" />
             </Icon>
-
             <Description>
               <p>
                 Academics and Clinicians, looking for real world applications
@@ -89,6 +85,7 @@ const Question = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
   h1 {
     display: flex;
     justify-content: center;
@@ -99,6 +96,13 @@ const Question = styled.div`
     font-size: 1.5rem;
     text-align: center;
     width: 40rem;
+  }
+
+  @media (max-width: 950px) {
+    h1,
+    p {
+      width: 20rem;
+    }
   }
 `;
 
@@ -125,6 +129,24 @@ const WhatIsVerseComponents = styled.div`
   .forthComponent {
     width: 40rem;
   }
+
+  @media (max-width: 950px) {
+    .firstComponent {
+      width: 20rem;
+    }
+
+    .secondComponent {
+      width: 20rem;
+    }
+
+    .thirdComponent {
+      width: 20rem;
+    }
+
+    .forthComponent {
+      width: 20rem;
+    }
+  }
 `;
 
 const Icon = styled.div`
@@ -132,30 +154,9 @@ const Icon = styled.div`
   justify-content: center;
   align-items: center;
 
-  .clock {
-    font-size: 1.8rem;
-    background-color: #0d6efd;
-    padding: 8px;
-    border-radius: 2px;
-    color: white;
-  }
-
-  .bank {
-    font-size: 1.8rem;
-    background-color: #0d6efd;
-    padding: 8px;
-    border-radius: 2px;
-    color: white;
-  }
-
-  .book {
-    font-size: 1.8rem;
-    background-color: #0d6efd;
-    padding: 8px;
-    border-radius: 2px;
-    color: white;
-  }
-
+  .clock,
+  .bank,
+  .book,
   .heart {
     font-size: 1.8rem;
     background-color: #0d6efd;
