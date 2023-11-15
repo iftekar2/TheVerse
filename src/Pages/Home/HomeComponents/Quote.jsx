@@ -21,6 +21,7 @@ const QuoteSection = styled.div`
   align-items: center;
   color: white;
   margin-top: 10rem;
+  margin-bottom: 10rem;
 
   div {
     width: 40rem;

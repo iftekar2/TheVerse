@@ -2,6 +2,7 @@ import styled from "styled-components";
 import HomeComponents from "./HomeComponents/HomeComponent";
 import ProjectsInVerse from "./HomeComponents/ProjectsInVerse";
 import Quote from "./HomeComponents/Quote";
+import WhatIsVerse from "./HomeComponents/WhatIsVerse";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <HomeComponents />
         <ProjectsInVerse />
         <Quote />
+        <WhatIsVerse />
       </HomePage>
     </div>
   );
