@@ -41,6 +41,14 @@ const FooterSection = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 950px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+  }
 `;
 
 const CopyRights = styled.div`
@@ -59,6 +67,13 @@ const Policy = styled.div`
     margin: 0.8rem;
     cursor: pointer;
   }
+
+  @media (max-width: 950px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+  }
 `;
 
 const SocialMedia = styled.div`
@@ -72,6 +87,13 @@ const SocialMedia = styled.div`
   .linkedin,
   .instagram {
     font-size: 30px;
+  }
+
+  @media (max-width: 950px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
   }
 `;
 
