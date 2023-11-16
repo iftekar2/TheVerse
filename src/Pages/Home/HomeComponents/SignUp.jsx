@@ -8,7 +8,7 @@ function SignUp() {
         <h1>Contact The Verse, Join Us Today</h1>
         <div className="signUpInput">
           <div className="inputAndButton">
-            <input className="input" placeholder="Email Address..." />
+            <input placeholder="Email Address..." />
             <button className="button">Sign Up</button>
           </div>
 
@@ -76,6 +76,26 @@ const SignUpSection = styled.div`
         border: 1px solid white;
         border-radius: 2px;
       }
+    }
+  }
+
+  @media (max-width: 950px) {
+    .signUpComponents {
+      width: 40rem;
+      height: 20rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+
+    .inputAndButton {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
     }
   }
 `;
