@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <NavContainer>
       <WebsiteTitle>
-        <NavLink to="/">
+        <NavLink to=":">
           <p>The Verse</p>
         </NavLink>
       </WebsiteTitle>
@@ -38,7 +38,9 @@ const Navbar = () => {
             <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="/digitalexperiences">Games / Digital Experiences</NavLink>
+            <NavLink to="/digitalexperiences">
+              Games / Digital Experiences
+            </NavLink>
           </li>
           <li>
             <NavLink to="/trygame">Try Games</NavLink>
@@ -59,6 +61,7 @@ const NavContainer = styled.div`
   top: 0;
   z-index: 1;
   background-color: #212529;
+  height: 4rem;
 `;
 
 const WebsiteTitle = styled.div`
@@ -102,16 +105,17 @@ const NavItems = styled.div`
 
   @media (max-width: 950px) {
     ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      gap: 2rem;
+      height: 20rem;
     }
   }
 
-  li{
+  li {
     cursor: pointer;
   }
 

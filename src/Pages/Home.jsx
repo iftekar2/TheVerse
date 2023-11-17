@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import HomeComponents from "./HomeComponents/HomeComponent";
 import ProjectsInVerse from "./HomeComponents/ProjectsInVerse";
@@ -7,21 +8,18 @@ import SignUp from "./HomeComponents/SignUp";
 
 function Home() {
   return (
-    <div className="HomePage">
-      <HomePage>
-        <HomeComponents />
-        <ProjectsInVerse />
-        <Quote />
-        <WhatIsVerse />
-        <SignUp />
-      </HomePage>
-    </div>
+    <HomePage>
+      <HomeComponents />
+      <ProjectsInVerse />
+      <Quote />
+      <WhatIsVerse />
+      <SignUp />
+    </HomePage>
   );
 }
 
 const HomePage = styled.div`
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: 0 2rem;
 `;
 
 export default Home;
