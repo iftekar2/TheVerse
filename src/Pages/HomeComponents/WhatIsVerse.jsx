@@ -128,6 +128,7 @@ const WhatIsVerseComponents = styled.div`
 
   .forthComponent {
     width: 40rem;
+    height: 9.5rem;
   }
 
   @media (max-width: 950px) {
@@ -152,13 +153,15 @@ const WhatIsVerseComponents = styled.div`
 const Icon = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align items to the start (top) of the container */
+  text-align: center;
+  margin-bottom: 1rem;
 
   .clock,
   .bank,
   .book,
   .heart {
-    font-size: 1.8rem;
+    font-size: 3rem;
     background-color: #0d6efd;
     padding: 8px;
     border-radius: 2px;
@@ -168,11 +171,11 @@ const Icon = styled.div`
 
 const Description = styled.div`
   p {
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
   }
 `;
 
