@@ -127,7 +127,7 @@ const Projects = styled.div`
 `;
 
 const First = styled.div`
-  height: 56.5rem;
+  height: 53rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -147,13 +147,13 @@ const First = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
-      margin-top: 0.8rem;
     }
   }
 
@@ -168,9 +168,7 @@ const First = styled.div`
     align-items: center;
 
     p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      text-align: center;
       font-size: 0.8rem;
       color: white;
     }
@@ -206,7 +204,7 @@ const First = styled.div`
 `;
 
 const Second = styled.div`
-  height: 56.5rem;
+  height: 53rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
@@ -226,13 +224,13 @@ const Second = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
-      margin-top: 0.8rem;
     }
   }
 
@@ -285,10 +283,12 @@ const Second = styled.div`
 `;
 
 const Third = styled.div`
-  height: 56.5rem;
+  height: 53rem;
   width: 24rem;
   border-radius: 5px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column; /* Set as a flex container with column direction */
 
   img {
     height: 25rem;
@@ -303,13 +303,13 @@ const Third = styled.div`
     h1 {
       font-size: 1.2rem;
       color: black;
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
     }
 
     p {
       color: black;
       font-size: 1.2rem;
-      margin-top: 0.8rem;
     }
   }
 
@@ -318,10 +318,10 @@ const Third = styled.div`
     width: 8rem;
     height: 1.5rem;
     border-radius: 20px;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.5rem;
 
     p {
       display: flex;
@@ -333,8 +333,9 @@ const Third = styled.div`
   }
 
   .experienceButton {
+    margin-top: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     button {
@@ -342,10 +343,11 @@ const Third = styled.div`
       color: white;
       border: none;
       height: 2.5rem;
-      width: 13rem;
+      width: 12rem;
       font-size: 1.3rem;
       border-radius: 5px;
       cursor: pointer;
+      margin-bottom: 1rem;
     }
   }
 
