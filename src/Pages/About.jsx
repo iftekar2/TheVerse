@@ -11,6 +11,9 @@ function About() {
   );
 }
 
-const AboutPage = styled.div``;
+const AboutPage = styled.div`
+  margin-left: 1rem;
+  margin-right: 1rem;
+`;
 
 export default About;
