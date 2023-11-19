@@ -160,6 +160,18 @@ const OurTeamSection = styled.div`
         }
       }
     }
+
+    @media (max-width: 950px) {
+      .ourTeamMembers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+    }
   }
 `;
 
