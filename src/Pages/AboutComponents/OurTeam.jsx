@@ -19,7 +19,7 @@ function OurTeam() {
           </p>
         </div>
 
-        {/* <div className="ourTeamImage">
+        <div className="ourTeamMembers">
           <div className="brandonHoward">
             <img
               src="https://media.licdn.com/dms/image/C5603AQHxiETt2zLLIw/profile-displayphoto-shrink_400_400/0/1592431777262?e=1706140800&v=beta&t=igawHYdLWWUhjP5QgA2tH0bs4k1mW86Ey1OT6__eu3U"
@@ -32,7 +32,33 @@ function OurTeam() {
               <p>Platform Director/Health & Wellbeing Innovator</p>
             </div>
           </div>
-        </div> */}
+
+          <div className="benSimonThomas">
+            <img
+              src="https://media.licdn.com/dms/image/C4E03AQHCjZFjN_yKVA/profile-displayphoto-shrink_800_800/0/1553642642127?e=1706140800&v=beta&t=EjQGV13xU3px_g8dz0yim2RpqxmMYDIBC9e1snHA6yQ"
+              alt="Ben Simon-Thomas"
+            />
+
+            <div className="benSimonThomasDescription">
+              <h1>Ben Simon-Thomas</h1>
+              <p>Founder, Co-Founder</p>
+              <p>Ecosystem Builder/Team Builderr</p>
+            </div>
+          </div>
+
+          <div className="anshulPendse">
+            <img
+              src="https://media.licdn.com/dms/image/D5603AQGNVQfAATyUHw/profile-displayphoto-shrink_400_400/0/1680209347665?e=1706140800&v=beta&t=8CdV4x-NLFcDF5qpjPQpeEpM2huusUYeO7KMGc5TH7Y"
+              alt="Anshul Pendse"
+            />
+
+            <div className="anshulPendseDescription">
+              <h1>Anshul Pendse</h1>
+              <p>Founder, Co-Founder</p>
+              <p>Media Artist, Designer, World Builder</p>
+            </div>
+          </div>
+        </div>
       </div>
     </OurTeamSection>
   );
@@ -59,30 +85,81 @@ const OurTeamSection = styled.div`
       p {
         width: 52rem;
         font-size: 1.3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
       }
     }
 
     @media (max-width: 950px) {
-        .ourTeamTitle {
+      .ourTeamTitle {
+        width: 20rem;
+        h1 {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .ourTeamDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
           width: 20rem;
-          h1 {
-            text-align: center;
-            margin-bottom: 1rem;
-          }
+          text-align: center;
+          font-size: 1.3rem;
+          margin-bottom: 1.5rem;
         }
-  
-        .ourTeamDescription {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          p {
-            width: 20rem;
-            text-align: center;
-            font-size: 1.3rem;
-            margin-bottom: 1.5rem;
-          }
+      }
+    }
+
+    .ourTeamMembers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+
+      .brandonHoward {
+        img {
+          height: 13rem;
+          width: 13rem;
+          border-radius: 50%;
         }
+      }
+
+      .brandonHowardDescription {
+        p {
+          color: #c2c3c5;
+        }
+      }
+
+      .benSimonThomas {
+        img {
+          height: 13rem;
+          width: 13rem;
+          border-radius: 50%;
+        }
+      }
+
+      .benSimonThomasDescription {
+        p {
+          color: #c2c3c5;
+        }
+      }
+
+      .anshulPendse {
+        img {
+          height: 13rem;
+          width: 13rem;
+          border-radius: 50%;
+        }
+      }
+
+      .anshulPendseDescription {
+        p {
+          color: #c2c3c5;
+        }
+      }
+    }
   }
 `;
 
