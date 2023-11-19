@@ -86,6 +86,30 @@ const GivingBackSection = styled.div`
         color: #2b80fd;
       }
     }
+
+    @media (max-width: 950px) {
+      .givingBackImage {
+        img {
+          width: 20rem;
+          height: 20rem;
+          border-radius: 20px;
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      .givingBackDescription {
+        text-align: center;
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.3rem;
+          width: 20rem;
+        }
+
+        a {
+          color: #2b80fd;
+        }
+      }
+    }
   }
 `;
 
