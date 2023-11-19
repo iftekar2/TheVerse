@@ -104,6 +104,36 @@ const OurMissionSection = styled.div`
         margin-bottom: 1rem;
       }
     }
+
+    @media (max-width: 950px) {
+      .ourMissionImage {
+        img {
+          width: 20rem;
+          height: 20rem;
+          margin-bottom: 2rem;
+        }
+      }
+
+      .ourMissionTitle {
+        width: 20rem;
+        h1 {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .ourMissionDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          width: 20rem;
+          text-align: center;
+          font-size: 1.3rem;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
   }
 `;
 
