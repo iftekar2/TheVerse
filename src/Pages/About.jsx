@@ -4,6 +4,7 @@ import WhatVerseDoes from "./AboutComponents/WhatVerseDoes";
 import OurMission from "./AboutComponents/OurMission";
 import OurTeam from "./AboutComponents/OurTeam";
 import OurPartners from "./AboutComponents/OurPartners";
+import GivingBack from "./AboutComponents/GivingBack";
 
 function About() {
   return (
@@ -13,6 +14,7 @@ function About() {
       <OurMission />
       <OurTeam />
       <OurPartners />
+      <GivingBack />
     </AboutPage>
   );
 }
