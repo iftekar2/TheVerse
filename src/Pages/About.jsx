@@ -2,6 +2,7 @@ import styled from "styled-components";
 import AboutComponents from "./AboutComponents/AboutComponents";
 import WhatVerseDoes from "./AboutComponents/WhatVerseDoes";
 import OurMission from "./AboutComponents/OurMission";
+import OurTeam from "./AboutComponents/OurTeam";
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
       <AboutComponents />
       <WhatVerseDoes />
       <OurMission />
+      <OurTeam />
     </AboutPage>
   );
 }
