@@ -59,7 +59,7 @@ const SignUpSection = styled.div`
       align-items: center;
 
       input {
-        height: 2.2rem;
+        height: 2.5rem;
         width: 16rem;
         font-size: 1rem;
         padding-left: 0.5rem;

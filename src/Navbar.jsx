@@ -117,11 +117,15 @@ const NavItems = styled.div`
 
   li {
     cursor: pointer;
-  }
 
-  a {
-    text-decoration: none;
-    color: #d3d3d4;
+    a {
+      text-decoration: none;
+      color: #d3d3d4;
+
+      &:hover {
+        color: white;
+      }
+    }
   }
 
   .active {
