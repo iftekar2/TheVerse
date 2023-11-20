@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 function App() {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ function App() {
         {/* Update the path for the home route */}
         <Route path="*" element={<Home onClick={redirectToMainPage} />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </AppPage>
