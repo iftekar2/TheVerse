@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// Navbar.jsx
+import { useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -12,7 +13,8 @@ const Navbar = () => {
   return (
     <NavContainer>
       <WebsiteTitle>
-        <NavLink to=":">
+        {/* Correct the 'to' prop */}
+        <NavLink to="/home">
           <p>The Verse</p>
         </NavLink>
       </WebsiteTitle>

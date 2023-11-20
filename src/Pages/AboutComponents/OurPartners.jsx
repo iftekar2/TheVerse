@@ -64,108 +64,147 @@ const OurPartnersSection = styled.div`
       p {
         font-size: 1.3rem;
         width: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
-    .ourPartners {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin-top: 4rem;
+    // .ourPartners {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    //   align-items: center;
+    //   margin-top: 4rem;
 
-      .partnerOne {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-bottom: 2px solid white;
-        border-right: 2px solid white;
-      }
+    //   .partnerOne {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-bottom: 2px solid red;
+    //       border-right: 2px solid red;
+    //     }
+    //   }
 
-      .partnerTwo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-bottom: 2px solid white;
-        border-right: 2px solid white;
-        border-left: 2px solid white;
-      }
+    //   .partnerTwo {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-bottom: 2px solid red;
+    //       border-right: 2px solid red;
+    //       border-left: 2px solid red;
+    //     }
+    //   }
 
-      .partnerThree {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-bottom: 2px solid white;
-        border-left: 2px solid white;
-      }
+    //   .partnerThree {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-bottom: 2px solid red;
+    //       border-left: 2px solid red;
+    //     }
+    //   }
 
-      .partnerFour {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-      }
+    //   .partnerFour {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-top: 2px solid red;
+    //       border-right: 2px solid red;
+    //     }
+    //   }
 
-      .partnerFive {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-top: 2px solid white;
-        border-right: 2px solid white;
-        border-left: 2px solid white;
-      }
+    //   .partnerFive {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-top: 2px solid red;
+    //       border-right: 2px solid red;
+    //       border-left: 2px solid red;
+    //     }
+    //   }
 
-      .partnerSix {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        width: 25rem;
-        border-top: 2px solid white;
-        border-left: 2px solid white;
-      }
-    }
+    //   .partnerSix {
+    //     h1 {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //       height: 20rem;
+    //       width: 25rem;
+    //       border-top: 2px solid red;
+    //       border-left: 2px solid red;
+    //     }
+    //   }
+    // }
 
-    .@media (max-width: 950px) {
-      .ourPartners {
-        width: 20rem;
+    // @media (max-width: 950px) {
+    //   .ourPartners {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     margin-top: 4rem;
 
-        .partnerOne {
-          width: 20rem;
-        }
+    //     .partnerOne {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //         border-bottom: 2px solid whtie;
+    //       }
+    //     }
 
-        .partnerTwo {
-          width: 20rem;
-        }
+    //     .partnerTwo {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //         border-bottom: 2px solid whtie;
+    //       }
+    //     }
 
-        .partnerthree {
-          width: 20rem;
-        }
+    //     .partnerThree {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //         border-bottom: 2px solid whtie;
+    //       }
+    //     }
 
-        .partnerFour {
-          width: 20rem;
-        }
+    //     .partnerFour {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //       }
+    //     }
 
-        .partnerFive {
-          width: 20rem;
-        }
+    //     .partnerFive {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //       }
+    //     }
 
-        .partnerSix {
-          width: 10rem;
-        }
-      }
-    }
+    //     .partnerSix {
+    //       h1 {
+    //         height: 20rem;
+    //         width: 20rem;
+    //       }
+    //     }
+    //   }
+    //}
   }
 `;
 
