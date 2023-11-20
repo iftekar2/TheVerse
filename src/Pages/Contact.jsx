@@ -1,7 +1,14 @@
-import React from "react";
+import styled from "styled-components";
+import ContactComponents from "./ContactComponents/ContactComponents";
 
 function Contact() {
-  return <div>Contact</div>;
+  return (
+    <ContactPage>
+      <ContactComponents />
+    </ContactPage>
+  );
 }
+
+const ContactPage = styled.div`; `;
 
 export default Contact;
