@@ -9,6 +9,8 @@ function Contact() {
   );
 }
 
-const ContactPage = styled.div`; `;
+const ContactPage = styled.div`
+  margin-top: 10rem;
+`;
 
 export default Contact;
