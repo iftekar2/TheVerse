@@ -82,6 +82,18 @@ const ContactComponentsSection = styled.div`
         border-radius: 10px;
         border: none;
       }
+
+      textarea {
+        width: 20rem;
+        height: 8rem;
+        font-color: #000000;
+        font-size: 1.2rem;
+        padding-left: 0.8rem;
+        padding-top: 0.8rem;
+        background: white;
+        border-radius: 15px;
+        border: none;
+      }
     }
   }
 `;
