@@ -16,6 +16,10 @@ function ContactComponents() {
           <input className="Subject" placeholder="Subject" />
           <textarea className="message" placeholder="Your Message"></textarea>
         </div>
+
+        <div className="contactComponentButton">
+          <button>Submit</button>
+        </div>
       </div>
     </ContactComponentsSection>
   );
@@ -59,7 +63,7 @@ const ContactComponentsSection = styled.div`
 
     textarea {
       width: 30rem;
-      height: 8rem;
+      height: 10rem;
       font-color: #000000;
       font-size: 1.2rem;
       padding-left: 0.8rem;
@@ -85,7 +89,7 @@ const ContactComponentsSection = styled.div`
 
       textarea {
         width: 20rem;
-        height: 8rem;
+        height: 10rem;
         font-color: #000000;
         font-size: 1.2rem;
         padding-left: 0.8rem;
@@ -94,6 +98,24 @@ const ContactComponentsSection = styled.div`
         border-radius: 15px;
         border: none;
       }
+    }
+  }
+
+  .contactComponentButton {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+    button {
+      background: #3e2bb9;
+      color: white;
+      border: none;
+      width: 10rem;
+      height: 3rem;
+      font-size: 1.3rem;
+      border-radius: 10px;
+      cursor: pointer;
     }
   }
 `;
