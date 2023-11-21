@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import ContactComponents from "./ContactComponents/ContactComponents";
+import LearnMore from "./ContactComponents/LearnMore";
 
 function Contact() {
   return (
     <ContactPage>
       <ContactComponents />
+      <LearnMore />
     </ContactPage>
   );
 }
