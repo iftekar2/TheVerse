@@ -9,8 +9,8 @@ function LearnMore() {
         </div>
 
         <div className="learnMoreContent">
-          <div className="aboutTheVerse">
-            <div className="aboutTheVerseContent">
+          <div className="learnMore">
+            <div className="learnMoreElements">
               <div className="aboutTheVerseImage">
                 <img
                   src="https://img.freepik.com/free-vector/exploring-concept-illustration_114360-958.jpg?t=st=1700579734~exp=1700580334~hmac=78a8b0429e062788e25d7ba049d430974b74319c6b80c8509aa6670225cb451f"
@@ -27,8 +27,8 @@ function LearnMore() {
             </div>
           </div>
 
-          <div className="joinVerse">
-            <div className="joinVerseContent">
+          <div className="learnMore">
+            <div className="learnMoreElements">
               <div className="joinVerseImage">
                 <img
                   src="https://img.freepik.com/free-vector/work-anniversary-illustration_23-2150176802.jpg?size=626&ext=jpg&ga=GA1.1.2032587638.1700353838&semt=sph"
@@ -42,8 +42,8 @@ function LearnMore() {
             </div>
           </div>
 
-          <div className="suggestions">
-            <div className="suggestionsContent">
+          <div className="learnMore">
+            <div className="learnMoreElements">
               <div className="suggestionsImage">
                 <img
                   src="https://img.freepik.com/free-vector/mind-map-concept-illustration_114360-1727.jpg?size=626&ext=jpg&ga=GA1.1.2032587638.1700353838&semt=sph"
@@ -57,8 +57,8 @@ function LearnMore() {
             </div>
           </div>
 
-          <div className="supportTheMovement">
-            <div className="supportTheMovementContent">
+          <div className="learnMore">
+            <div className="learnMoreElements">
               <div className="supportTheMovementImage">
                 <img
                   src="https://img.freepik.com/free-vector/spread-more-love-support-black-community-vector_53876-165963.jpg?size=626&ext=jpg&ga=GA1.1.2032587638.1700353838&semt=sph"
@@ -86,6 +86,7 @@ const LearnMoreSection = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  margin-bottom: 3rem;
   color: white;
   text-align: center;
 
@@ -97,14 +98,17 @@ const LearnMoreSection = styled.div`
     align-items: center;
     gap: 2rem;
 
-    .aboutTheVerse {
+    .learnMore {
       text-align: center;
       background: white;
       color: black;
       width: 34rem;
       height: 34rem;
 
-      .aboutTheVerseContent {
+      .learnMoreElements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         padding-top: 1.5rem;
@@ -116,48 +120,14 @@ const LearnMoreSection = styled.div`
           display: flex;
           justify-content: center;
           align-items: center;
+          margin: auto;
 
           img {
-            height: 12rem;
-            width: 12rem;
+            height: 10rem;
+            width: 10rem;
             border-radius: 10px;
           }
         }
-
-        h1 {
-          margin-top: 1rem;
-          margin-bottom: 1rem;
-        }
-
-        p {
-          color: #6c757d;
-          margin-bottom: 1rem;
-          font-size: 1.1rem;
-        }
-
-        button {
-          background: white;
-          border: 1.5px solid black;
-          height: 2.5rem;
-          width: 18rem;
-          font-size: 1.1rem;
-          font-weight: 550;
-          cursor: pointer;
-        }
-      }
-    }
-
-    .joinVerse {
-      text-align: center;
-      background: white;
-      color: black;
-      width: 34rem;
-      height: 34rem;
-
-      .joinVerseContent {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: 1.5rem;
 
         .joinVerseImage {
           width: 31rem;
@@ -174,42 +144,22 @@ const LearnMoreSection = styled.div`
           }
         }
 
-        h1 {
-          margin-top: 1rem;
-          margin-bottom: 1rem;
-        }
-
-        p {
-          color: #6c757d;
-          margin-bottom: 1rem;
-          font-size: 1.1rem;
-        }
-
-        button {
-          background: white;
-          border: 1.5px solid black;
-          height: 2.5rem;
-          width: 18rem;
-          font-size: 1.1rem;
-          font-weight: 550;
-          cursor: pointer;
-        }
-      }
-    }
-
-    .suggestions {
-      text-align: center;
-      background: white;
-      color: black;
-      width: 34rem;
-      height: 34rem;
-
-      .suggestionsContent {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: 1.5rem;
-
         .suggestionsImage {
+          width: 31rem;
+          height: 18rem;
+          background: #d6f1ff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            height: 12rem;
+            width: 12rem;
+            border-radius: 10px;
+          }
+        }
+
+        .supportTheMovementImage {
           width: 31rem;
           height: 18rem;
           background: #d6f1ff;
@@ -247,52 +197,66 @@ const LearnMoreSection = styled.div`
       }
     }
 
-    .supportTheMovement {
-      text-align: center;
-      background: white;
-      color: black;
-      width: 34rem;
-      height: 34rem;
+    @media (max-width: 950px) {
+      .learnMore {
+        text-align: center;
+        background: white;
+        color: black;
+        width: 20rem;
+        height: 37rem;
 
-      .supportTheMovementContent {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: 1.5rem;
+        .learnMoreElements {
+          .aboutTheVerseImage {
+            width: 18rem;
+            height: 18rem;
+            background: #ffded6;
+            margin-left: -0.5rem;
 
-        .supportTheMovementImage {
-          width: 31rem;
-          height: 18rem;
-          background: #a7e1ff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          img {
-            height: 12rem;
-            width: 12rem;
-            border-radius: 10px;
+            img {
+              height: 10rem;
+              width: 10rem;
+              border-radius: 10px;
+            }
           }
-        }
 
-        h1 {
-          margin-top: 1rem;
-          margin-bottom: 1rem;
-        }
+          .joinVerseImage {
+            width: 18rem;
+            height: 18rem;
+            background: #ffd6ff;
+            margin-left: -0.5rem;
 
-        p {
-          color: #6c757d;
-          margin-bottom: 1rem;
-          font-size: 1.1rem;
-        }
+            img {
+              height: 10rem;
+              width: 10rem;
+              border-radius: 10px;
+            }
+          }
 
-        button {
-          background: white;
-          border: 1.5px solid black;
-          height: 2.5rem;
-          width: 18rem;
-          font-size: 1.1rem;
-          font-weight: 550;
-          cursor: pointer;
+          .suggestionsImage {
+            width: 18rem;
+            height: 18rem;
+            background: #d6f1ff;
+            margin-left: -0.5rem;
+
+            img {
+              height: 10rem;
+              width: 10rem;
+              border-radius: 10px;
+            }
+          }
+
+          .supportTheMovementImage {
+            width: 18rem;
+            height: 18rem;
+            background: #a7e1ff;
+            margin-left: -0.5rem;
+
+            img {
+              height: 10rem;
+              width: 10rem;
+              border-radius: 10px;
+            }
+          }
         }
       }
     }
