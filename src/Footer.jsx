@@ -28,7 +28,7 @@ function Footer() {
 }
 
 const FooterSection = styled.div`
-  height: 3rem;
+  height: 5rem;
   color: white;
   padding-left: 2rem;
   padding-right: 2rem;

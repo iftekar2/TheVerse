@@ -40,9 +40,7 @@ const Navbar = () => {
             <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="/digitalexperiences">
-              Games / Digital Experiences
-            </NavLink>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li>
             <NavLink to="/trygame">Try Games</NavLink>
