@@ -70,7 +70,7 @@ function LearnMore() {
               <p>
                 Your contributions go directly towards a team of 70 people who
                 donate ~20hrs per week to build games and experiences that
-                impact health and consciousness. e
+                impact health and consciousness.
               </p>
               <button>Subscribe Now</button>
             </div>
@@ -103,7 +103,7 @@ const LearnMoreSection = styled.div`
       background: white;
       color: black;
       width: 34rem;
-      height: 34rem;
+      height: 32.5rem;
 
       .learnMoreElements {
         display: flex;
@@ -147,7 +147,7 @@ const LearnMoreSection = styled.div`
         .suggestionsImage {
           width: 31rem;
           height: 18rem;
-          background: #d6f1ff;
+          background: #ffcfe6;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -235,7 +235,7 @@ const LearnMoreSection = styled.div`
           .suggestionsImage {
             width: 18rem;
             height: 18rem;
-            background: #d6f1ff;
+            background: #ffcfe6;
             margin-left: -0.5rem;
 
             img {
