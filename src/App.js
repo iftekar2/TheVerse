@@ -5,11 +5,11 @@ import Footer from "./Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Karma from "./Pages/ProjectComponents/Karma";
 
 function App() {
   const navigate = useNavigate();
 
-  // Function to handle redirection from Home to the main page
   const redirectToMainPage = () => {
     navigate("/");
   };
@@ -18,10 +18,10 @@ function App() {
     <AppPage>
       <Navbar />
       <Routes>
-        {/* Update the path for the home route */}
         <Route path="*" element={<Home onClick={redirectToMainPage} />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/karma" element={<Karma />} />
       </Routes>
       <Footer />
     </AppPage>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 function ProjectsInVerse() {
   return (
@@ -31,7 +32,9 @@ function ProjectsInVerse() {
             </div>
 
             <div className="playButton">
-              <button>Play Game</button>
+              <NavLink to="/karma">
+                <button>Play Game</button>
+              </NavLink>
             </div>
           </First>
           <Second>
