@@ -31,8 +31,31 @@ const KarmaSection = styled.div`
   background-position: center;
 `;
 
-const KarmaPageTitle = styled.div``;
+const KarmaPageTitle = styled.div`
+  h1 {
+    font-size: 6rem;
+  }
 
-const KarmaLearnMore = styled.div``;
+  p {
+    font-size: 3rem;
+    color: #ccccd5;
+  }
+`;
+
+const KarmaLearnMore = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  button {
+    width: 25rem;
+    background: #3e2bb9;
+    color: white;
+    font-size: 2rem;
+    height: 4rem;
+    border: none;
+  }
+`;
 
 export default Karma;
