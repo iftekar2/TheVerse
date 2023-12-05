@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Karma() {
+function KarmaHomeSection() {
   return (
     <KarmaSection>
       <div className="karmaConents">
@@ -58,4 +58,4 @@ const KarmaLearnMore = styled.div`
   }
 `;
 
-export default Karma;
+export default KarmaHomeSection;
