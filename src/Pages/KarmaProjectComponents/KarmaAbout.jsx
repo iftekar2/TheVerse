@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BuildInOpen from "./BuildInOpen";
+import BuildInOpen from "./KarmaBuildInOpen";
 
 function KarmaAbout() {
   return (

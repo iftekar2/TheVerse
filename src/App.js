@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Karma from "./Pages/Karma";
+import AdventureInBreath from "./Pages/AdventureInBreath";
 
 function App() {
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/karma" element={<Karma />} />
+        <Route path="/adventureInBreath" element={<AdventureInBreath />} />
       </Routes>
       <Footer />
     </AppPage>

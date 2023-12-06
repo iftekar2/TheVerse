@@ -59,7 +59,9 @@ function ProjectsInVerse() {
             </div>
 
             <div className="playButton">
-              <button>Play Game</button>
+              <NavLink to="/adventureInBreath">
+                <button>Play Game</button>
+              </NavLink>
             </div>
           </Second>
           <Third>

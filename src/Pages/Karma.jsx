@@ -1,16 +1,13 @@
-import styled from "styled-components";
-import KarmaHomeSection from "./ProjectComponents/KarmaHomeSection";
-import KarmaAbout from "./ProjectComponents/KarmaAbout";
+import KarmaHomeSection from "./KarmaProjectComponents/KarmaHomeSection";
+import KarmaAbout from "./KarmaProjectComponents/KarmaAbout";
 
 function Karma() {
   return (
-    <KarmaPage>
+    <div>
       <KarmaHomeSection />
       <KarmaAbout />
-    </KarmaPage>
+    </div>
   );
 }
-
-const KarmaPage = styled.div``;
 
 export default Karma;
