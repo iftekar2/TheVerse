@@ -6,7 +6,7 @@ function Karma() {
   return (
     <KarmaPage>
       <KarmaHomeSection />
-      <KarmaAbout />
+      {/* <KarmaAbout /> */}
     </KarmaPage>
   );
 }

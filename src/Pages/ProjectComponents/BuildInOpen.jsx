@@ -50,6 +50,7 @@ const BuildInOpenTitle = styled.div`
 
 const BuildInOpenProjects = styled.div`
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;

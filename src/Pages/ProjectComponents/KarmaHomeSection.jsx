@@ -40,6 +40,18 @@ const KarmaPageTitle = styled.div`
     font-size: 3rem;
     color: #ccccd5;
   }
+
+  @media (max-width: 950px) {
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 const KarmaLearnMore = styled.div`
