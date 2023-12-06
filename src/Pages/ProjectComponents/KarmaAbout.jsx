@@ -38,15 +38,30 @@ const KarmaAboutSection = styled.div`
 
 const KarmaAboutTitle = styled.div`
   color: white;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const KarmaAboutDescription = styled.div`
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 
   p {
     width: 38rem;
     color: white;
     font-size: 1.3rem;
+  }
+
+  img {
+    width: 30rem;
+    border-radius: 2px;
   }
 `;
 
