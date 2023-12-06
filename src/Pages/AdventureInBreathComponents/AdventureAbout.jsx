@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import BuildInOpen from "./KarmaBuildInOpen";
+import AdventureBuildInOpen from "./AdventureBuildInOpen";
 
 function AdventureAbout() {
   return (
@@ -24,7 +24,7 @@ function AdventureAbout() {
           />
         </AdventureAboutDescription>
 
-        {/* <BuildInOpen /> */}
+        <AdventureBuildInOpen />
       </div>
     </AdventureAboutSection>
   );
@@ -68,6 +68,7 @@ const AdventureAboutDescription = styled.div`
 
   img {
     width: 30rem;
+    height: 25rem;
     border-radius: 2px;
   }
 

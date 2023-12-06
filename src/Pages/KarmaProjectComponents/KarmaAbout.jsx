@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BuildInOpen from "./KarmaBuildInOpen";
+import KarmaBuildInOpen from "./KarmaBuildInOpen";
 
 function KarmaAbout() {
   return (
@@ -26,7 +26,7 @@ function KarmaAbout() {
           />
         </KarmaAboutDescription>
 
-        <BuildInOpen />
+        <KarmaBuildInOpen />
       </div>
     </KarmaAboutSection>
   );
