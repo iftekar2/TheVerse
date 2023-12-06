@@ -26,7 +26,7 @@ function KarmaAbout() {
           />
         </KarmaAboutDescription>
 
-        {/* <BuildInOpen /> */}
+        <BuildInOpen />
       </div>
     </KarmaAboutSection>
   );
@@ -85,7 +85,7 @@ const KarmaAboutDescription = styled.div`
     }
 
     img {
-      width: 20rem;
+      width: 22rem;
     }
   }
 `;

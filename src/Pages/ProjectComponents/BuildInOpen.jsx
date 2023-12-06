@@ -90,6 +90,20 @@ const BuildInOpenProjects = styled.div`
       font-size: 1.3rem;
     }
   }
+
+  @media (max-width: 950px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .projectOne,
+    .projectTwo,
+    .projectThree {
+      width: 22rem;
+      height: 45rem;
+    }
+  }
 `;
 
 export default BuildInOpen;
