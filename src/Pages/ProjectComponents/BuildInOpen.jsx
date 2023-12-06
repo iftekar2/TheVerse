@@ -20,6 +20,12 @@ function BuildInOpen() {
             <h2>Title</h2>
             <p>Description</p>
           </div>
+
+          <div className="projectThree">
+            <img className="projectThreeImage" alt="COMING SOON" />
+            <h2>Title</h2>
+            <p>Description</p>
+          </div>
         </BuildInOpenProjects>
       </div>
     </BuildInOpenSection>
@@ -50,13 +56,15 @@ const BuildInOpenProjects = styled.div`
   gap: 2rem;
 
   .projectOne,
-  .projectTwo {
+  .projectTwo,
+  .projectThree {
     width: 25rem;
     height: 45rem;
     background: white;
 
     .projectOneImage,
-    .projectTwoImage {
+    .projectTwoImage,
+    .projectThreeImage {
       height: 30rem;
       width: 100%;
       display: flex;
