@@ -1,23 +1,23 @@
 import styled from "styled-components";
 
-function KarmaHomeSection() {
+function AdventureHomeSection() {
   return (
-    <KarmaSection>
+    <AdventureSection>
       <div className="karmaConents">
-        <KarmaPageTitle>
+        <AdventurePageTitle>
           <h1>Adventure in Breath</h1>
           <p>Gamified breathing practices to reduce stress and anxiety.</p>
-        </KarmaPageTitle>
+        </AdventurePageTitle>
 
-        <KarmaLearnMore>
+        <AdventureLearnMore>
           <button>Learn more on Notion</button>
-        </KarmaLearnMore>
+        </AdventureLearnMore>
       </div>
-    </KarmaSection>
+    </AdventureSection>
   );
 }
 
-const KarmaSection = styled.div`
+const AdventureSection = styled.div`
   height: 44rem;
   max-width: 1560px;
   display: flex;
@@ -30,7 +30,7 @@ const KarmaSection = styled.div`
   background-position: center;
 `;
 
-const KarmaPageTitle = styled.div`
+const AdventurePageTitle = styled.div`
   color: white;
   h1 {
     font-size: 6rem;
@@ -54,7 +54,7 @@ const KarmaPageTitle = styled.div`
   }
 `;
 
-const KarmaLearnMore = styled.div`
+const AdventureLearnMore = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,4 +77,4 @@ const KarmaLearnMore = styled.div`
   }
 `;
 
-export default KarmaHomeSection;
+export default AdventureHomeSection;
