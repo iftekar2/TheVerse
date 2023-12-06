@@ -1,7 +1,11 @@
-import React from "react";
+import AdventureInBreathHomeSection from "./AdventureInBreathComponents/AdventureInBreathHomeSection";
 
 function AdventureInBreath() {
-  return <div>AdventureInBreath</div>;
+  return (
+    <div>
+      <AdventureInBreathHomeSection />
+    </div>
+  );
 }
 
 export default AdventureInBreath;

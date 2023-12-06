@@ -5,8 +5,8 @@ function KarmaHomeSection() {
     <KarmaSection>
       <div className="karmaConents">
         <KarmaPageTitle>
-          <h1>Welcome to Karma</h1>
-          <p>Gamified Pro-Sociality to Impact Wellbeing.</p>
+          <h1>Adventure in Breath</h1>
+          <p>Gamified breathing practices to reduce stress and anxiety.</p>
         </KarmaPageTitle>
 
         <KarmaLearnMore>
@@ -31,13 +31,13 @@ const KarmaSection = styled.div`
 `;
 
 const KarmaPageTitle = styled.div`
+  color: white;
   h1 {
     font-size: 6rem;
   }
 
   p {
     font-size: 3rem;
-    color: #ccccd5;
   }
 
   @media (max-width: 950px) {
