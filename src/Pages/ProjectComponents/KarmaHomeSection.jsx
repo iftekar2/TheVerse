@@ -50,6 +50,7 @@ const KarmaPageTitle = styled.div`
 
     p {
       font-size: 1.5rem;
+      color: white;
     }
   }
 `;
@@ -67,6 +68,13 @@ const KarmaLearnMore = styled.div`
     font-size: 2rem;
     height: 4rem;
     border: none;
+  }
+
+  @media (max-width: 950px) {
+    button {
+      width: 18rem;
+      font-size: 1.5rem;
+    }
   }
 `;
 
