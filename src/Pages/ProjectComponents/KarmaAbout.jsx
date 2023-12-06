@@ -26,7 +26,7 @@ function KarmaAbout() {
           />
         </KarmaAboutDescription>
 
-        <BuildInOpen />
+        {/* <BuildInOpen /> */}
       </div>
     </KarmaAboutSection>
   );
@@ -47,6 +47,12 @@ const KarmaAboutTitle = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 950px) {
+    h2 {
+      text-align: center;
+    }
+  }
 `;
 
 const KarmaAboutDescription = styled.div`
@@ -65,6 +71,22 @@ const KarmaAboutDescription = styled.div`
   img {
     width: 30rem;
     border-radius: 2px;
+  }
+
+  @media (max-width: 950px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      width: 20rem;
+      text-align: center;
+    }
+
+    img {
+      width: 20rem;
+    }
   }
 `;
 
