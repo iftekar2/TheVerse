@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Karma from "./Pages/Karma";
 import AdventureInBreath from "./Pages/AdventureInBreath";
+import WalkXR from "./Pages/WalkXR";
 
 function App() {
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/karma" element={<Karma />} />
         <Route path="/adventureInBreath" element={<AdventureInBreath />} />
+        <Route path="/walkXR" element={<WalkXR />} />
       </Routes>
       <Footer />
     </AppPage>

@@ -1,7 +1,13 @@
-import React from "react";
+import WalkXRHomeSection from "./WalkXRComponents/WalkXRHomeSection";
+import WalkXRHomeAbout from "./WalkXRComponents/WalkXRAbout";
 
 function WalkXR() {
-  return <div>WalkXR</div>;
+  return (
+    <div>
+      <WalkXRHomeSection />
+      <WalkXRHomeAbout />
+    </div>
+  );
 }
 
 export default WalkXR;

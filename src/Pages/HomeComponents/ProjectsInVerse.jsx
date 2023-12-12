@@ -90,7 +90,9 @@ function ProjectsInVerse() {
             </div>
 
             <div className="experienceButton">
-              <button>Experience Walk</button>
+              <NavLink to="/walkXR">
+                <button>Experience Walk</button>
+              </NavLink>
             </div>
           </Third>
         </Projects>
