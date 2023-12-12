@@ -33,6 +33,7 @@ const KarmaSection = styled.div`
 const KarmaPageTitle = styled.div`
   h1 {
     font-size: 6rem;
+    text-align: center;
   }
 
   p {

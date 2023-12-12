@@ -6,22 +6,21 @@ function KarmaAbout() {
     <KarmaAboutSection>
       <div className="karmaAboutContent">
         <KarmaAboutTitle>
-          <h2>Karma The Six Realm Game: Gamifing prosociality. </h2>
+          {/* <h2>Karma The Six Realm Game: Gamifing prosociality. </h2> */}
         </KarmaAboutTitle>
 
         <KarmaAboutDescription>
           <p>
-            The 6 realms can be understood as forms of existence, or states of
-            mind, into which beings are born according to their karma. The
-            realms can be viewed as situations in life or even personality
-            types. Game play begins in the “Soppana: The Ladder”, where a simple
-            mini game calculates your proscial score. This score determines
-            which of the 6 realms a player is born into. In each realm, a player
-            explores agency/choice using prosocial game mechanics.
+            A multi media social therapeutic that provides our community with
+            the ability to "walk" through the experiences of others. WalkXR
+            provides digital experiences that promote empathy, perspective
+            taking, and socialization. We explore: What does grief look like?
+            What does hope look like? What does forgiveness look like? What does
+            awe look like? What does building look like?
           </p>
 
           <img
-            src="https://img.freepik.com/premium-photo/religion-hinduism_930683-9456.jpg?size=626&ext=jpg&ga=GA1.1.2032587638.1700353838&semt=sph"
+            src="https://img.freepik.com/free-vector/breathing-exercise-concept-illustration_114360-9070.jpg?size=626&ext=jpg&ga=GA1.1.2032587638.1700353838&semt=sph"
             alt="Karma"
           />
         </KarmaAboutDescription>

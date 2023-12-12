@@ -34,6 +34,7 @@ const AdventurePageTitle = styled.div`
   color: white;
   h1 {
     font-size: 6rem;
+    text-align: center;
   }
 
   p {
